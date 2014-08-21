@@ -1,0 +1,12 @@
+﻿<Init>
+<BaseWindow id="tasklog" x="140" y="160" width="574" height="308" imgStr="asset/ui/任务记录.png" align="Center">
+
+<PushButton id="close" label="关闭" x="554" y="11" width="15" height="15" event="click:Hide"/>
+
+<List id="list" text="列表" x="22" y="65" width="152" height="220"/>
+
+<Text id="task" text="任务" x="178" y="68" width="373" height="217" html="true" editable="false"/>
+
+</BaseWindow>
+
+</Init>

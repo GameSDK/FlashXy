@@ -1,0 +1,9 @@
+﻿<Init>
+<BaseWindow id="pack" x="0" y="70" width="321" height="399" imgStr="asset/ui/包裹.png">
+
+<PushButton id="close" label="关闭" x="301" y="11" width="15" height="15" event="click:Hide"/>
+
+
+</BaseWindow>
+
+</Init>

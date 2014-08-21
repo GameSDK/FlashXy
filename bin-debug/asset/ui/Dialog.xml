@@ -1,0 +1,7 @@
+﻿<Init>
+<Component id="dialog" x="0" y="0" width="450" height="119" imgStr="asset/ui/对话框.png" align="Center">
+
+<Text id="talk" x="10" y="10" width="400" height="100" editable="false"/>
+
+</Component>
+</Init>

@@ -1,0 +1,18 @@
+﻿<Init>
+<Component id="charcreate" x="0" y="0" width="350" height="250" imgStr="asset/ui/选择.png" align="Center">
+<Label id="select" text="创建角色" x="160" y="10"/>
+
+<RadioButton id="char1" label="职业1" x="55" y="55" selected="true" event="click:OnSelect1"/>
+<RadioButton id="char2" label="职业2" x="220" y="55" event="click:OnSelect2"/>
+<RadioButton id="char3" label="职业3" x="55" y="80" event="click:OnSelect3"/>
+<RadioButton id="char4" label="职业4" x="220" y="80" event="click:OnSelect4"/>
+
+<RadioButton id="charman" label="男" x="80" y="130" groupName="sex" selected="true" event="click:OnSelect5"/>
+<RadioButton id="charwoman" label="女" x="200" y="130" groupName="sex" event="click:OnSelect6"/>
+
+<InputText id="name" x="107" y="150" w="132" h="12" maxChars="20"/>
+
+<PushButton id="create" label="返回" x="90" y="220" width="74" height="20" event="click:OnReturn"/>
+<PushButton id="entergame" label="创建角色" x="180" y="220" width="74" height="20" event="click:OnCharCreate"/>
+</Component>
+</Init>

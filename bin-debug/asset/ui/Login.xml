@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+
+<Init>
+<Component id="login" title="登录" x="241" y="167" width="320" height="230" imgStr="asset/ui/登录界面.png" align="Center">
+
+<Label id="Title" text="请输入游戏账号和密码" x="100" y="16" width="127" height="16" >
+</Label>
+
+<Label id="账号" text="账号" x="61" y="58" width="40" height="16" >
+</Label>
+
+<Label id="密码" text="密码" x="61" y="95" width="40" height="16" >
+</Label>
+
+<InputText id="account" x="107" y="60" width="144" height="14" maxChars="32">
+</InputText>
+
+<InputText id="password" x="107" y="97" width="144" height="14" maxChars="32" password="true">
+</InputText>
+
+<PushButton id="确定" label="确定" x="49" y="185" width="74" height="20" event="click:SendLogin">
+
+</PushButton>
+
+<PushButton id="注册" label="注册" x="124" y="185" width="74" height="20" event="click:OnCreate">
+
+</PushButton>
+
+<PushButton id="单机测试" label="单机测试" x="199" y="185" width="74" height="20" event="click:EnterGame">
+
+</PushButton>
+
+
+<CheckBox id="安全证书" label="安全证书" x="75" y="146" width="80" height="15" >
+
+</CheckBox>
+
+<CheckBox id="save" label="记住账号" x="180" y="146" width="60" height="15" >
+
+</CheckBox>
+
+
+
+</Component>
+</Init>
+
+

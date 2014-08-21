@@ -1,0 +1,15 @@
+﻿<Init>
+<BaseWindow id="skill" x="343" y="120" width="309" height="376" imgStr="asset/ui/技能.Img">
+
+<PushButton id="close" label="关闭" x="289" y="10" width="15" height="15" event="click:Hide"/>
+
+<Label id="剩余技能点" text="剩余技能点" x="13" y="34" width="77" height="17" />
+<Label id="已用技能点" text="已用技能点" x="157" y="34" width="77" height="17" />
+<Label id="剩余技能点信息" text="0" x="89" y="34" width="61" height="17" />
+<Label id="已用技能点信息" text="0" x="234" y="34" width="61" height="17" />
+
+
+
+</BaseWindow>
+
+</Init>

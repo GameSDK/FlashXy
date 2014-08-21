@@ -1,0 +1,21 @@
+
+local talk={
+"你终于来了，很好，独自一人修炼固然可以，若是能和同门弟子一起组队修炼则会事半功倍。",
+"点击下方的组队按钮或者按键可以打开组队窗口，创建队伍后就可以邀请其他人加入了。",
+"还有更简单的方法：鼠标右键点击其他人，就会弹出交互菜单，直接选择组队即可。",
+"你现在去按我说的找同门组一个队伍，再回来找我吧。",
+}
+
+local i = 1;
+luaTalk.Talk(talk[i])
+
+function onevent(e)
+	i = i+1;
+	luaTalk.Talk(talk[i])
+
+	if talk[i] == nil then
+		luaTalk.Hide(nil)
+	end
+end
+
+luaTalk.OnTalk(onevent)

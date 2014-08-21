@@ -1,0 +1,13 @@
+﻿<Init>
+<Component id="charSelect" x="0" y="0" width="350" height="250" imgStr="asset/ui/选择.png" align="Center">
+<Label id="select" text="选择角色" x="160" y="10"/>
+
+<RadioButton id="char1" label="角色1" x="140" y="70" visible="false" event="click:OnSelect1"/>
+<RadioButton id="char2" label="角色2" x="140" y="110" visible="false" event="click:OnSelect2"/>
+<RadioButton id="char3" label="角色3" x="140" y="150" visible="false" event="click:OnSelect3"/>
+<RadioButton id="char4" label="角色4" x="140" y="190" visible="false" event="click:OnSelect4"/>
+
+<PushButton id="create" label="角色创建" x="90" y="220" width="74" height="20" event="click:OnCharCreate"/>
+<PushButton id="entergame" label="进入游戏" x="180" y="220" width="74" height="20" event="click:OnCharSelectEnter"/>
+</Component>
+</Init>

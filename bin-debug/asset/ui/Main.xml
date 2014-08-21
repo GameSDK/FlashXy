@@ -1,0 +1,28 @@
+﻿<Init>
+<Component id="main" x="0" y="545" width="800" height="55" imgStr="asset/ui/底部面板.img" align="Down">
+
+<PushButton id="create" label="状态" x="569" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="pack" label="包裹" x="595" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="拍卖" x="699" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="skill" label="技能" x="621" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="组队" x="673" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="邮件" x="647" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="聊天" x="725" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="交易" x="621" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="交易" x="621" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="商店" x="568" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="交互" x="595" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="混元鼎" x="725" y="28" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="社会关系" x="699" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="tasklog" label="任务" x="647" y="1" width="25" height="26" event="click:OnClick"/>
+<PushButton id="create" label="摆摊" x="673" y="28" width="25" height="26" event="click:OnClick"/>
+
+<PushButton id="create" label="自动寻路" x="752" y="2" width="20" height="16" event="click:OnClick"/>
+<PushButton id="create" label="游戏帮助" x="777" y="2" width="20" height="16" event="click:OnClick"/>
+<PushButton id="create" label="交易记录" x="752" y="19" width="20" height="16" event="click:OnClick"/>
+<PushButton id="create" label="系统选项" x="777" y="19" width="20" height="16" event="click:OnClick"/>
+
+<Label id="经验值" text="经验值" x="752" y="38" w="45" h="15"/>
+
+</Component>
+</Init>
